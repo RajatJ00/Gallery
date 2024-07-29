@@ -49,17 +49,17 @@ body{
 @media (max-width: 376px) {
     .main_img {
         overflow-x: scroll;
-        padding-left: 7%;
+        padding-inline: 10px;
         scrollbar-color: transparent transparent;
         justify-content: start; /*left*/
     }
     .img{
         width: 80px;
-        height: 80px;
+        height: 110px;
     }
     .pre_img{
 	    width: 100%;
-        height:100%;
+        height: 100%;
     }
     .preview{
         margin-top: 20%;
