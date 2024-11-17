@@ -1,8 +1,5 @@
-* {
-    margin: 0px;
-}
-body{
-    background:linear-gradient(#FEFAF6 ,#606676 45%);
+body {
+    background: linear-gradient(#FEFAF6 ,#606676 45%);
     overflow: hidden;
 }
 
@@ -28,6 +25,13 @@ body{
     box-shadow: black 0px 0px 15px 1px;
     width: 100px;
     scale: 1.2;
+    animation: animation 0.3s ease-in-out;
+}
+
+@keyframes animation {
+    50%{
+        opacity: 0.5;
+    }
 }
 
 .preview {
@@ -53,15 +57,15 @@ body{
         scrollbar-color: transparent transparent;
         justify-content: start; /*left*/
     }
-    .img{
+    .img {
         width: 80px;
         height: 110px;
     }
-    .pre_img{
+    .pre_img {
 	    width: 100%;
         height: 100%;
     }
-    .preview{
+    .preview {
         margin-top: 20%;
         margin-bottom: 80%;
     }
