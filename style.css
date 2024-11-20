@@ -1,7 +1,21 @@
 body {
-    background: linear-gradient(#FEFAF6 ,#606676 45%);
     overflow: hidden;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, #4A628A 0%, #7AB2D3 25%, #B9E5E8 50%, #DFF2EB 55%, #7AB2D3 100%);
+    animation: background_animation 15s ease infinite;
 }
+
+  @keyframes background_animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 .main_img {
     width: 100%;
