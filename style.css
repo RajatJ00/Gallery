@@ -18,11 +18,13 @@ body {
   }
 
 .main_img {
-    width: 100%;
-    padding-block: 20px;
+    width: fit;
+    margin-block: 25px;
+    transform: translate(0, 15px);
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: center;
     gap: 10px;
 }
 
@@ -83,4 +85,8 @@ body {
         margin-top: 20%;
         margin-bottom: 80%;
     }
+}
+
+.main_img:hover .img:not(:hover){
+    filter: grayscale(1) blur(2px);
 }
